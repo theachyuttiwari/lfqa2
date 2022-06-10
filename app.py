@@ -1,5 +1,5 @@
 import streamlit as st
-from multipage import MultiPage
+#from multipage import MultiPage
 from pages import ask, settings, info
 
 
