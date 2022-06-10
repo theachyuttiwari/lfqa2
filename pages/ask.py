@@ -281,10 +281,10 @@ def app():
     st.markdown(footer, unsafe_allow_html=True)
 
     st.title('Wikipedia Assistant')
-    st.header('We are migrating to new backend infrastructure. ETA - 15.6.2022')
+    # st.header('We are migrating to new backend infrastructure. ETA - 15.6.2022')
 
     #question = st.text_input(
-    #    label='Ask Wikipedia an open-ended question below; for example, "Why do airplanes leave contrails in the sky?"')
+      label='Ask Wikipedia an open-ended question below; for example, "Why do airplanes leave contrails in the sky?"')
     question = ""
     spinner = st.empty()
     if question !="":
