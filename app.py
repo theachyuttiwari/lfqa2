@@ -1,6 +1,6 @@
 import streamlit as st
-#from multipage import MultiPage
-#from pages import ask, settings, info
+from multipage import MultiPage
+from pages import ask, settings, info
 
 
 def init_session_key_value(key, value):
