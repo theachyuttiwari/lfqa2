@@ -1,0 +1,7 @@
+datasets
+transformers
+fastapi
+faiss-gpu
+uvicorn[standard]
+PyJWT==1.7.1
+python-decouple==3.3
